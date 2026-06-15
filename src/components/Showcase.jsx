@@ -21,10 +21,9 @@ function Showcase() {
           ease: "none",
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top top",
-            end: "+=300%",
+            start: "top 80%",
+            end: "center center",
             scrub: 1,
-            pin: true,
           },
         });
 
