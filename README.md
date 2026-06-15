@@ -1,64 +1,17 @@
-# MacBook Pro 3D Landing Page
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:000000,50:1a1a1a,100:3a3a3a&amp;height=200&amp;section=header&amp;text=MACBOOK%20PRO%20CLONE&amp;fontSize=46&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Apple%20MacBook%20Pro%20Page%20Recreation&amp;descSize=15&amp;descAlignY=62&amp;animation=fadeIn&amp;fontFamily=georgia" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&amp;size=22&amp;duration=3000&amp;pause=1000&amp;color=e0e0e0&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Vite+%7C+GSAP+%7C+Three.js.;3D+Modeling.+Scroll+Animations." alt="Typing SVG" />
+<br/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+<br/>
 
-A premium, interactive Apple-inspired landing page built with React, Three.js, GSAP, and Tailwind CSS. This project showcases advanced frontend techniques including 3D model rendering, complex scroll animations, masonry layouts, and parallax effects.
+## `◈` &nbsp; Overview
 
-## ✨ Features
+> A recreation of the Apple MacBook Pro landing page — built following a YouTube tutorial using Vite, GSAP for scroll-based animations, and Three.js for 3D model rendering.
 
-- **Interactive 3D Models**: Uses `@react-three/fiber` and `@react-three/drei` to render high-quality MacBook 14" and 16" GLTF models.
-- **Scroll Animations**: Implements `gsap` and `ScrollTrigger` for buttery smooth reveal, zoom, and parallax animations on scroll.
-- **Dynamic State Management**: Powered by `zustand` to instantly switch MacBook sizes and colors.
-- **Modern Styling**: Styled with Tailwind CSS v4 and vanilla CSS, featuring custom Apple typography and signature gradients.
-- **Responsive Layout**: Designed to look stunning on both desktop and mobile devices.
-
-## 🚀 Tech Stack
-
-- **Framework**: React 19 + Vite
-- **3D Rendering**: Three.js, React Three Fiber, React Three Drei
-- **Animations**: GSAP (GreenSock Animation Platform) + @gsap/react
-- **Styling**: Tailwind CSS v4, Vanilla CSS
-- **State Management**: Zustand
-- **Fonts**: Custom Apple UI fonts (Regular, Medium, SemiBold, Bold)
-
-## 📦 Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Build for production:
-   ```bash
-   npm run build
-   ```
-
-## 🏗️ Project Structure
-
-- `/src/components/`: Modular React components for each page section (Hero, Showcase, Features, etc.)
-- `/src/constants/`: Centralized data arrays for navigation, features, and footer links.
-- `/src/store/`: Zustand state management for 3D viewer interactions.
-- `/public/models/`: GLTF format 3D models of MacBook Pro.
-- `/public/videos/`: High-quality video assets used in the showcase sections.
-- `/public/fonts/`: Custom typography files.
-
-## 🤝 Contact
-
-Developed by **Mohammed**.
-
-Feel free to reach out or open an issue if you have suggestions or feedback!
+<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:3a3a3a,50:1a1a1a,100:000000&amp;height=120&amp;section=footer&amp;animation=fadeIn" width="100%"/>
+<sub>© 2026 MacBook Pro Clone &nbsp;·&nbsp; Developed by <a href="https://mohammed-mahmoud.com">Mohammed Mahmoud</a></sub>
+</div>
