@@ -6,7 +6,7 @@ function Hero() {
   const videoRef = useRef();
 
   useEffect(() => {
-    if (videoRef.current) videoRef.current.playbackRate = 2;
+    if (videoRef.current) videoRef.current.playbackRate = 0.5;
   }, []);
 
   useGSAP(() => {
@@ -24,10 +24,9 @@ function Hero() {
         <img src="/title.png" alt="Macbook Title" />
       </div>
 
-      <video ref={videoRef} src="/videos/hero.mp4" autoPlay muted playsInline loop></video>
+      <video ref={videoRef} src="/videos/hero.mp4" autoPlay muted playsInline></video>
 
       <button>Buy</button>
-      <p>From $1599 or $133/mo for 12 months</p>
     </section>
   );
 }
