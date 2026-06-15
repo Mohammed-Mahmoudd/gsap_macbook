@@ -7,10 +7,11 @@ const NavBar = () => {
         <img src="./logo.svg" alt="Apple Logo" />
 
         <ul>
-          {navLinks.map(({ label }) => (
+          {navLinks.map(({ label, url }) => (
             <li key={label}>
-              {" "}
-              <a href={label}>{label}</a>
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {label}
+              </a>
             </li>
           ))}
         </ul>

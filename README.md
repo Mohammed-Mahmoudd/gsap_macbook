@@ -1,16 +1,64 @@
-# React + Vite
+# MacBook Pro 3D Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, interactive Apple-inspired landing page built with React, Three.js, GSAP, and Tailwind CSS. This project showcases advanced frontend techniques including 3D model rendering, complex scroll animations, masonry layouts, and parallax effects.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive 3D Models**: Uses `@react-three/fiber` and `@react-three/drei` to render high-quality MacBook 14" and 16" GLTF models.
+- **Scroll Animations**: Implements `gsap` and `ScrollTrigger` for buttery smooth reveal, zoom, and parallax animations on scroll.
+- **Dynamic State Management**: Powered by `zustand` to instantly switch MacBook sizes and colors.
+- **Modern Styling**: Styled with Tailwind CSS v4 and vanilla CSS, featuring custom Apple typography and signature gradients.
+- **Responsive Layout**: Designed to look stunning on both desktop and mobile devices.
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 + Vite
+- **3D Rendering**: Three.js, React Three Fiber, React Three Drei
+- **Animations**: GSAP (GreenSock Animation Platform) + @gsap/react
+- **Styling**: Tailwind CSS v4, Vanilla CSS
+- **State Management**: Zustand
+- **Fonts**: Custom Apple UI fonts (Regular, Medium, SemiBold, Bold)
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## 🏗️ Project Structure
+
+- `/src/components/`: Modular React components for each page section (Hero, Showcase, Features, etc.)
+- `/src/constants/`: Centralized data arrays for navigation, features, and footer links.
+- `/src/store/`: Zustand state management for 3D viewer interactions.
+- `/public/models/`: GLTF format 3D models of MacBook Pro.
+- `/public/videos/`: High-quality video assets used in the showcase sections.
+- `/public/fonts/`: Custom typography files.
+
+## 🤝 Contact
+
+Developed by **Mohammed**.
+
+Feel free to reach out or open an issue if you have suggestions or feedback!
