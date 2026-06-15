@@ -8,7 +8,7 @@ function Footer() {
           Copyright &copy; 2024 Apple Inc. All rights reserved.
         </p>
         <p>
-          Designed by <span>Mohammed</span>
+          Developed by <span>Mohammed</span>
         </p>
       </div>
       <hr />
